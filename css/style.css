@@ -211,6 +211,7 @@ color: #404BBF;
 
 .service-list li img {
   width: 100%;
+  height: auto;
   vertical-align: middle;
 }
 
@@ -243,6 +244,7 @@ color: #404BBF;
 
 .team-list li img {
   width: 100%;
+  height: auto;
 }
 
 .team-member {
@@ -325,6 +327,7 @@ color: #404BBF;
 
 .project-card-item img {
   width: 100%;
+  height: auto;
 }
 
 .project-card-detail {
