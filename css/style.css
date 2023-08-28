@@ -76,18 +76,18 @@ button:hover {
   border-bottom: 1px solid #E7E9FC;
 }
 
-.header > .container {
+.header-main-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Logo Styles */
 .logo {
   margin-right: 76px;
-}
-
-.logo a {
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.54px;
@@ -97,26 +97,23 @@ button:hover {
   font-family: "Raleway", sans-serif;
 }
 
-.logo a span {
+.logo span {
   color: #434455;
 }
 
 /* Main Menu Styles */
 .main-menu {
   flex: 1;
-}
-
-.main-menu ul {
   display: flex;
   gap: 40px;
   padding: 0;
 }
 
-.main-menu ul li {
+.main-menu-item {
   list-style: none;
 }
 
-.main-menu ul li a {
+.main-menu-item a {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.32px;
@@ -124,21 +121,21 @@ button:hover {
   text-decoration: none;
 }
 
-.main-menu ul li a:hover {
+.main-menu-item a:hover {
 color: #404BBF;
 }
 
 /* Contact Info Styles */
-.contact-info ul {
+.contact-info {
   display: flex;
   gap: 40px;
 }
 
-.contact-info ul li {
+.contact-info-item {
   list-style: none;
 }
 
-.contact-info ul li a {
+.contact-info-item a {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.32px;
@@ -146,7 +143,7 @@ color: #404BBF;
   text-decoration: none;
 }
 
-.contact-info ul li a:hover {
+.contact-info-item a:hover {
   color: #404BBF;
   }
 
@@ -204,12 +201,12 @@ color: #404BBF;
   margin: 70px 0 0;
 }
 
-.service-list li {
+.service-item {
   list-style: none;
   flex: 1;
 }
 
-.service-list li img {
+.service-item img {
   width: 100%;
   height: auto;
   vertical-align: middle;
@@ -235,25 +232,21 @@ color: #404BBF;
   margin: 0;
 }
 
-.team-list li {
+.team-item {
   border-radius: 4px;
   background-color: #FFF;
   box-shadow: 0px 2px 6px rgba(46, 47, 66, 0.08);
   flex: 1;
-}
-
-.team-list li img {
-  width: 100%;
-  height: auto;
-}
-
-.team-member {
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 32px;
   padding-bottom: 32px;
   display: flex;
+}
+.team-item img {
+  width: 100%;
+  height: auto;
 }
 
 .member-details h3 {
@@ -270,11 +263,10 @@ color: #404BBF;
   padding: 100px 0;
   color: #fff;
 }
-
-.footer .logo span {
+.footer-logo span {
   color: #fff;
 }
 
-.footer .widget {
+.widget {
   max-width: 264px;
 }
